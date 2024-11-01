@@ -1,0 +1,78 @@
+﻿/** 
+ * WP Testimonial
+ * @CSS 2014
+ * */
+#wpt_testimonial_list {width:100%;height: auto;padding: 10px;}
+#wpt_testimonial_list blockquote {padding:5px; margin:inherit; width:100%; height:auto;}
+#wpt_testimonial_list cite img {float:left;padding:5px}
+#wpt_testimonial_list cite {display:block; background:#FAEBBC;}
+#wpt_testimonial_list .wpt_author span {vertical-align:top; display: block;}
+#wpt_testimonial_list a {color:#A3220A;}
+#wpt_testimonial_list p {margin:inherit;}
+#wpt_testimonial_list .wpt_author {
+    display: block;
+    float: right;
+    padding-right: 5px;
+    text-align: right;
+    width: auto;
+    font-weight:bold;
+    color:#A3220A;
+}
+#wpt_testimonial_list .wpt_author img {}
+#wpt_testimonial_list .authorRole {display:block;font-weight:normal;}
+#wpt_testimonial_list blockquote.style1 {
+  font: 14px/20px italic Times, serif;
+  padding: 8px;
+  background-color: #faebbc;
+  border-top: 1px solid #e1cc89;
+  margin: 5px;
+   float: left;
+  text-indent: 23px;
+  }
+#wpt_testimonial_list div.content {background: none repeat scroll 0 0 #FAEBBC;
+    font-style: italic;
+    line-height: 24px;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 10px;
+    position: relative;color:#000;}
+#wpt_testimonial_list div.content span.laquo{background:url(../images/openquote1.gif) no-repeat;width:25px;height:25px;position:absolute;left:0;top:4px;display:block;}
+#wpt_testimonial_list div.content span.raquo{background:url(../images/closequote1.gif) no-repeat right 4px;width:25px;height:25px;padding-left:4px;display:inline-block;}
+
+/** Rotator shortcode */
+#wptRandom {width:100%;height:auto;position:relative; clear:both;}
+#wptRandom .view-all a {color:#21759B;}
+#wptRandom #wptTestimonials {width:100% position:relative; background:#FFF; max-height:168px;}
+#wptRandom #wptTestimonials blockquote {padding-top: 10px;color:#000; display:block; font-family:"Open Sans",Helvetica,Arial,sans-serif;font-style:normal; font-size:12px; margin:inherit; }
+#wptRandom #wptTestimonials blockquote p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+#wptRandom .wptTestimonial p span.laquo{background:url(../images/openquote1.gif) no-repeat;width:25px;height:25px;position:absolute;left:0;display:block;}
+#wptRandom .wptTestimonial p span.raquo{background:url(../images/closequote1.gif) no-repeat right 4px;width:25px;height:25px;padding-left:4px;display:inline-block;}
+#wptRandom #wptTestimonials blockquote cite {position:relative; top:-30px;font-style:normal; display: block; margin-top:10px; font-weight: bold; text-align:right; color: #555555; font-size:14px;}
+#wptRandom #wptTestimonials blockquote cite .designation {display:block;color: #000;font-style:normal;font-size:12px;}
+/** testimonial widget */
+#wptWidget {width:100%;height:auto;position:relative; clear:both;}
+#wptWidget .view-all a {color:#21759B;}
+#wptWidget #wptTestimonialsWidget {width:100% position:relative; background:#fff;}
+#wptWidget #wptTestimonialsWidget blockquote {color:#000; display:block; font-family:"Open Sans",Helvetica,Arial,sans-serif;font-style:normal; font-size:12px;  margin:inherit; padding:inherit; }
+#wptWidget #wptTestimonialsWidget blockquote {padding:5px;}
+#wptWidget #wptTestimonialsWidget blockquote p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: normal;
+}#wptWidget .wptTestimonial p span.laquo{background:url(../images/openquote1.gif) no-repeat;width:25px;height:25px;position:absolute;left:0;display:block;}
+#wptWidget .wptTestimonial p span.raquo{background:url(../images/closequote1.gif) no-repeat right 4px;width:25px;height:25px;padding-left:4px;display:inline-block;}
+#wptWidget #wptTestimonialsWidget blockquote cite {
+    font-style: normal;
+    display: block;
+    top: -30px;
+    font-weight: bold;
+    text-align: right;
+    color: #555555;
+    font-size: 14px;
+    position: relative;
+}#wptWidget #wptTestimonialsWidget blockquote cite .designation {display:block;color: #000;font-style:normal;font-size:12px;}
